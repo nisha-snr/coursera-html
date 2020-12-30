@@ -1,0 +1,58 @@
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+  }
+
+.row {
+  margin:3%;
+}
+
+.row div{
+    height:1000px;
+    background-color: rgb(144, 197, 139);
+    margin-bottom: 20px;
+}
+
+.navbar-header button.navbar-toggle{
+    clear:both;
+}
+  
+.navbar-toggle{
+    bottom:12px;
+}
+
+.navbar-brand{
+    height:40px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+#collapsable-nav{
+    padding-bottom: 0px;
+}
+
+.row h2{
+    text-align: center;
+}
+
+.row p{
+    padding: 10px;
+}
+
+@media(min-width:768px){
+    #collapsable-nav{
+        padding-bottom: 50px;
+    }
+   
+}
+
+
+@media(max-width:767px){
+    #collapsable-nav{
+        background-color: blanchedalmond;
+    }
+   
+}
